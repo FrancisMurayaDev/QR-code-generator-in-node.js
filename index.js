@@ -10,15 +10,15 @@ inquirer
     var qr_svg = qr.image(url);
     qr_svg.pipe(fs.createWriteStream("qr_img.png"));
 
-    fs.writeFile('URL.txt', url, (err) => {
+    fs.writeFile("URL.txt", url, (err) => {
       if (err) throw err;
-      console.log('The QR image and url text have been saved!');
-    }); 
+      console.log("The QR image and url text have been saved!");
+    });
   })
   .catch((error) => {
     if (error.isTtyError) {
-      console.log('Could not be rendered in the current environment')
+      console.log("Could not be rendered in the current environment");
     } else {
-      console.log('Something went wrong, try again later!')
+      console.log("Something went wrong, try again later!");
     }
   });
