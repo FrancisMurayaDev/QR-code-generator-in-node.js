@@ -14,5 +14,9 @@
   "author": "FrancisMurayaDev",
   "license": "ISC",
   "description": "QR-code generator project",
-  "keywords": ["QR-code", "Node.js", "JavaScript"]
+  "keywords": [
+    "QR-code",
+    "Node.js",
+    "JavaScript"
+  ]
 }
