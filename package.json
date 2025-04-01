@@ -11,8 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "FrancisMurayaDev",
   "license": "ISC",
-  "description": "",
-  "keywords": []
+  "description": "QR-code generator project",
+  "keywords": ["QR-code", "Node.js", "JavaScript"]
 }
