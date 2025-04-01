@@ -12,13 +12,13 @@ inquirer
 
     fs.writeFile('URL.txt', url, (err) => {
       if (err) throw err;
-      console.log('The file has been saved!');
+      console.log('The QR image and url text have been saved!');
     }); 
   })
   .catch((error) => {
     if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
+      console.log('Could not be rendered in the current environment')
     } else {
-      // Something else went wrong
+      console.log('Something went wrong, try again later!')
     }
   });
